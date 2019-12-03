@@ -1,0 +1,82 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+   font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: #0af;
+}
+
+.disabled {
+    color: #999;
+    font-weight: 300;
+    font-style: italic;
+    pointer-events:none;
+    text-decoration:none;
+}
+
+#title, #taskList, #nav {
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    max-width: 500px;
+}
+
+#title {
+    padding-top: 1em;
+    cursor: pointer;
+}
+
+#title:hover {
+    color: #666;
+}
+
+#copy {
+    position: absolute;
+    top: -100px;
+}
+
+#nav {
+    padding: 0.5em 0 1em 0;
+}
+
+#taskList {
+    line-height: 1.4em;
+    white-space: nowrap;
+}
+
+.event {
+    cursor: default;
+}
+
+.eventDuration {
+    display: inline-block;
+    width: 30px;
+    text-align: right;
+    padding-right:5px;
+    font-style: normal;
+}
+
+.eventTime {
+    font-size: 0.8em;
+    font-style: normal;
+    display: none;
+    line-height: 0.8em;
+}
+
+.eventHover > .eventTime {
+    display: inline-block;
+}
+
+a.disabled {
+    font-style: normal;
+}
+
+.noselect {
+     -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer */
+   -khtml-user-select: none; /* KHTML browsers (e.g. Konqueror) */
+  -webkit-user-select: none; /* Chrome, Safari, and Opera */
+  -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
+}

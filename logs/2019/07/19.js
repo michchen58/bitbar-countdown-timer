@@ -1,0 +1,15 @@
+let data = [
+{time: 1563555545450, task: "waid", duration: "10m"},
+{time: 1563556086318, task: "isEatsOrRushJob error", duration: "25m"},
+{time: 1563557333521, task: "understand diff comments", duration: "25m"},
+{time: 1563558840933, task: "sync", duration: "25m"},
+{time: 1563558997276, task: "git shortcuts", duration: "25m"},
+{time: 1563559369977, task: "meeting", duration: "58m"},
+{time: 1563560685277, task: "new branch or no?", duration: "25m"},
+{time: 1563561656241, task: "address diff comments", duration: "25m"},
+{time: 1563566364770, task: "[no name]", duration: "25m"},
+{time: 1563566367030, task: "lint & arc diff", duration: "35m"},
+{time: 1563568424677, task: "chronicle", duration: "25m"},
+{time: 1563569927809, task: "[no name]", duration: "25m"},
+{time: 1563569942849, task: "chronicle", duration: "25m"},
+]

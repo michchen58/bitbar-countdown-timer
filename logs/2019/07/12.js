@@ -1,0 +1,21 @@
+let data = [
+{time: 1562951124463, task: "waid", duration: "10m"},
+{time: 1562951482612, task: "understand dovb2", duration: "25m"},
+{time: 1562952608070, task: "dispatch weekly prework", duration: "15m"},
+{time: 1562954400000, task: "meeting", duration: "60m"},
+{time: 1562958082605, task: "lunch", duration: "59m"},
+{time: 1562960688630, task: "what is metadata", duration: "25m"},
+{time: 1562962196625, task: "study tests", duration: "25m"},
+{time: 1562963095722, task: "prep", duration: "6m"},
+{time: 1562963361709, task: "meeting", duration: "31m"},
+{time: 1562965292311, task: "review notes", duration: "15m"},
+{time: 1562966232565, task: "try not to barf", duration: "25m"},
+{time: 1562966307614, task: "waid", duration: "10m"},
+{time: 1562966318844, task: "why isn't it loading", duration: "25m"},
+{time: 1562967401219, task: "waid", duration: "10m"},
+{time: 1562968023943, task: "_renderSelectedCandidateInfo()", duration: "25m"},
+{time: 1562969280910, task: "destination benefit", duration: "25m"},
+{time: 1562978447641, task: "countdown_timer", duration: "60m"}, // started 5:40pm
+{time: 1562993997779, task: "", duration: "25m"},
+{time: 1562995018925, task: "render date", duration: "25m"},
+]
